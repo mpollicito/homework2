@@ -31,6 +31,10 @@
     color:red
   }
   
+  h2 {
+    color: orange;
+  }
+
   p {
     margin-bottom: 20px;
     font-size: 20px;
