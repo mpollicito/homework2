@@ -1,63 +1,78 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-size: 24px;
-    line-height: 32px;
-    color: #333;
-  }
-  
-  #fixed {
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: 40px;
-    margin: 0;
-    text-align: center;
-    background: #eee;
-  }
-  
-  .wrapper {
-    width: 600px;
-    padding: 20px;
-    margin: 0 auto;
-  }
-  
-  h1 {
-    margin-bottom: 20px;
-    font-size: 48px;
-    line-height: 45px;
-    color:lightseagreen
-  }
-  
-  h2 {
-    color: orange;
-  }
 
-  p {
-    margin-bottom: 20px;
-    font-size: 20px;
-    line-height: 28px;
-    color:indigo
-    
-  }
+body, html {
+  font-size: 100%;
+  line-height: 100%;
+  color: #333;
+}
   
-  #relative {
-    position: relative;
-    height: 200px;
-    padding: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-    background: #eee;
-  }
+#fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 40px;
+  margin: 0;
+  text-align: center;
+  background: #eee;
+}
+
+.wrapper {
+  width: 600px;
+  padding: 20px;
+  margin: 0 auto;
+}
   
-  #absolute {
-    position: absolute;
-    right: -30px;
-    bottom: 0;
-    width: 250px;
-    padding: 20px;
-    text-align: center;
-    background: #999;
-  }
+h1 {
+  margin-bottom: 20px;
+  font-size: 48px;
+  line-height: 45px;
+  color:lightseagreen;
+}
+
+h2 {
+  color: orange;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 20px;
+  line-height: 28px;
+  color:indigo
+  
+}
+
+#relative {
+  position: relative;
+  height: 200px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  background: #eee;
+}
+
+#absolute {
+  position: absolute;
+  right: -30px;
+  bottom: 0;
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+  background: #999;
+}
+
+#header {
+  height: 120px;
+  background-color: rgb(152, 152, 223);
+}
+
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box {
+  width: 50%;
+  height: 140px;
+  float left;
+}
