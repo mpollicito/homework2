@@ -36,27 +36,7 @@ p {
   margin-bottom: 20px;
   font-size: 20px;
   line-height: 28px;
-  color:indigo
-  
-}
-
-#relative {
-  position: relative;
-  height: 200px;
-  padding: 20px;
-  margin-bottom: 20px;
-  text-align: center;
-  background: #eee;
-}
-
-#absolute {
-  position: absolute;
-  right: -30px;
-  bottom: 0;
-  width: 250px;
-  padding: 20px;
-  text-align: center;
-  background: #999;
+  color:indigo;
 }
 
 #header {
@@ -72,7 +52,27 @@ p {
 }
 
 .box {
-  width: 50%;
+  width: 100%;
   height: 140px;
-  float left;
+  float: left;
+}
+
+.box1 {
+  background-color: lightseagreen;
+}
+
+.box2 {
+  background-color: lightgreen;
+}
+
+.box3 {
+  background-color: lightsalmon;
+}
+
+.box4 {
+  background-color: lightcoral;
+}
+
+.clearfix {
+  clear: both;
 }
